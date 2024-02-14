@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,7 @@ public class PlayerMoverTD : MonoBehaviour
     public float MoveSpeed = 5f;
     public Animator anim;
     public float RollSpeed;
+    bool isAttacking;
     private enum State
     {
         Normal,
@@ -47,7 +49,12 @@ public class PlayerMoverTD : MonoBehaviour
                 {
                     Rolldir = Movedir;
                     RollSpeed = 20f;
-                    state= State.Rolling;
+                    state = State.Rolling;
+                }
+                if (Input.GetKey(KeyCode.LeftControl))
+                {
+                    isAttacking = true;
+                    state = State.Attack;
                 }
                 break;
             case State.Rolling:
@@ -59,11 +66,28 @@ public class PlayerMoverTD : MonoBehaviour
                     state = State.Normal;
                 }
                 break;
+            case State.Attack:
+                Attack();
+                if (isAttacking == false)
+                {
+                    StartCoroutine(AttackDelay());
+                }
+                break;
         }
-
-
         UpdateAnimations();
     }
+    IEnumerator AttackDelay()
+    {
+        yield return new WaitForSeconds(0.01f);
+        anim.SetBool("Attack", false);
+        state = State.Normal;
+    }
+    private void Attack()
+    {
+        isAttacking = false;
+        anim.SetBool("Attack", true);
+    }
+
     private void FixedUpdate()
     {
         switch(state)
