@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e291e8a06c5782b41a65fd3cea0ce99b
+guid: c339bd7c7f963c04c952762a1532156d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dodge Roll Left_0
+      name: Atteck Left_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,41 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cbcea02a4e5fe74faf12e2f3af82352
-      internalID: 45994448
+      spriteID: e073d07ff269b1e45a1d9c11e527e465
+      internalID: 951172926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dodge Roll Left_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3dacbf5a383217a43bcae7cc65736d58
-      internalID: -503231363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dodge Roll Left_2
+      name: Atteck Left_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,41 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb2db351aaf5c9c4e8a3ec9b260a26d8
-      internalID: -492663759
+      spriteID: 8c3b9f922743f6947b51e4aaa5c0ca64
+      internalID: -1824254405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dodge Roll Left_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5a43b4fc349c764cbb87bc9b01b80af
-      internalID: -1749061224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dodge Roll Left_4
+      name: Atteck Left_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,41 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3af4db4539a239146ab552b653863a72
-      internalID: -224612785
+      spriteID: 49b145c3ddda0214b997e8e6a812838d
+      internalID: -706821492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dodge Roll Left_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6a878e683e55854fb7bb6776576ff57
-      internalID: -1368281454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dodge Roll Left_6
+      name: Atteck Left_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23f14de3499cb174e92a002607afb436
-      internalID: 171567176
+      spriteID: 0135e593527299b4482bd62f8dc02cef
+      internalID: -288260439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dodge Roll Left_7
+      name: Atteck Left_4
       rect:
         serializedVersion: 2
-        x: 224
+        x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +227,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad235e2c97e5a294baa827ee8e5a153e
-      internalID: 800047004
+      spriteID: 81bce41eab507a74db194c89088fd02a
+      internalID: -1312219141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atteck Left_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b686c317a6e76b449792f2d5770e022
+      internalID: -1532985722
       vertices: []
       indices: 
       edges: []
@@ -307,14 +265,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dodge Roll Left_1: -503231363
-      Dodge Roll Left_3: -1749061224
-      Dodge Roll Left_7: 800047004
-      Dodge Roll Left_2: -492663759
-      Dodge Roll Left_6: 171567176
-      Dodge Roll Left_5: -1368281454
-      Dodge Roll Left_0: 45994448
-      Dodge Roll Left_4: -224612785
+      Atteck Left_2: -706821492
+      Atteck Left_1: -1824254405
+      Atteck Left_0: 951172926
+      Atteck Left_4: -1312219141
+      Atteck Left_3: -288260439
+      Atteck Left_5: -1532985722
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
